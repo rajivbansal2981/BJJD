@@ -1,0 +1,13 @@
+dependencies{
+	compile project(":jmk-bjjd-utils")
+	compile project(":jmk-bjjd-models")
+	compile libraries.spring_core
+	compile libraries.spring_context
+	compile libraries.spring_data_mongodb
+	compile libraries.mongodb_driver
+	compile libraries.slf4j_api
+	compile libraries.logback_classic
+	compile libraries.logback_core
+	testCompile libraries.spring_test
+}
+

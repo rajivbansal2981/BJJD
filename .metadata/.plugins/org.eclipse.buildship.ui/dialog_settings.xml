@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.buildship.ui.wizard.project.import">
+		<item value="LOCAL_INSTALLATION" key="gradle_distribution_type"/>
+		<item value="C:\Program Files\Java\jdk1.6.0_37" key="java_home"/>
+		<item value="false" key="apply_working_sets"/>
+		<item value="F:\JAVA\gradle-2.5" key="gradle_distribution_configuration"/>
+		<item value="F:\BJJD" key="project_location"/>
+		<list key="working_sets">
+		</list>
+	</section>
+</section>

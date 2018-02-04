@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+ "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+
+<tiles-definitions>
+	<definition name="base.definition" template="/WEB-INF/pages/layout/base.jsp">
+		<put-attribute name="title" value=""/>
+		<put-attribute name="header" value="/WEB-INF/pages/layout/header.jsp" />
+		<put-attribute name="horizontalMenu" value="" />
+		<put-attribute name="verticalMenu" value="/WEB-INF/pages/layout/verticalMenu.jsp"/>
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/pages/layout/footer.jsp" /> 
+	</definition>
+	
+   <definition name="login" template="/WEB-INF/pages/access/login.jsp" >
+	</definition> 
+	
+	<definition name="home" extends="base.definition">
+		<put-attribute name="title" value="Welcome to the Bansal Travels"/>
+	</definition>
+	
+	<definition name="adminhome" extends="base.definition">
+		<put-attribute name="title" value="Welcome to the Bansal Travels"/>
+		<put-attribute name="body" value="/WEB-INF/pages/landing/adminhome.jsp" />
+	</definition>
+	
+	<!-- ====================================MEMBER MANAGEMENT================================== -->
+	
+	<!-- Edit/Add Member -->
+	<definition name="editMemberPage" extends="base.definition">
+		<put-attribute name="title" value="Welcome to the BJJD"/>
+		<put-attribute name="body" value="/WEB-INF/pages/member/editMember.jsp" />
+	</definition>
+	
+	<!-- Edit/Add Member -->
+	<definition name="viewMemberPage" extends="base.definition">
+		<put-attribute name="title" value="Welcome to the BJJD"/>
+		<put-attribute name="body" value="/WEB-INF/pages/member/viewMember.jsp" />
+	</definition>
+	
+	<!-- ====================================EXPENSE MANAGEMENT================================== -->
+	
+	<definition name="uploadExpensePage" extends="base.definition">
+		<put-attribute name="title" value="Welcome to the BJJD"/>
+		<put-attribute name="body" value="/WEB-INF/pages/expense/uploadExpense.jsp" />
+	</definition>
+	
+	<definition name="viewExpensePage" extends="base.definition">
+		<put-attribute name="title" value="Welcome to the BJJD"/>
+		<put-attribute name="body" value="/WEB-INF/pages/expense/viewExpense.jsp" />
+	</definition>
+	
+	<definition name="listExpensePage" extends="base.definition">
+		<put-attribute name="title" value="Welcome to the BJJD"/>
+		<put-attribute name="body" value="/WEB-INF/pages/expense/listExpense.jsp" />
+	</definition>
+
+</tiles-definitions>

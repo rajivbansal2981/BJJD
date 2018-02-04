@@ -1,0 +1,15 @@
+dependencies{
+	compile project(":jmk-bjjd-models")
+	compile project(":jmk-bjjd-persistence-nosql")
+	compile project(":jmk-bjjd-persistence-sql")
+	compile project(":jmk-bjjd-utils")
+	compile libraries.spring_core
+	compile libraries.spring_context
+	compile libraries.slf4j_api
+	compile libraries.slf4j_jcl
+	compile libraries.spring_web
+	compile libraries.spring_webmvc
+	compile libraries.jackson_api
+	testCompile libraries.spring_test
+}
+

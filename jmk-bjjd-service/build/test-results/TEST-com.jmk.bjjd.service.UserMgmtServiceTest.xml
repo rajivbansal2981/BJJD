@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jmk.bjjd.service.UserMgmtServiceTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2017-05-05T08:11:43" hostname="DEL2-LT6J0FG32" time="0.0">
+  <properties/>
+  <testcase name="findUserDetailsByUserId" classname="com.jmk.bjjd.service.UserMgmtServiceTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[13:41:43.783 [Test worker] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.jmk.bjjd.service.UserMgmtServiceTest]
+13:41:43.784 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+13:41:43.784 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+13:41:43.784 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.jmk.bjjd.service.UserMgmtServiceTest] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+13:41:43.785 [Test worker] DEBUG o.s.t.c.s.AbstractDelegatingSmartContextLoader - Delegating to AnnotationConfigContextLoader to process context configuration [ContextConfigurationAttributes@374b2d5b declaringClass = 'com.jmk.bjjd.service.UserMgmtServiceTest', classes = '{class com.jmk.bjjd.service.config.SpringServiceConfig}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+13:41:43.786 [Test worker] DEBUG o.s.t.c.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.jmk.bjjd.service.UserMgmtServiceTest]
+13:41:43.786 [Test worker] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - @TestExecutionListeners is not present for class [com.jmk.bjjd.service.UserMgmtServiceTest]: using defaults.
+13:41:43.787 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+13:41:43.788 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+13:41:43.788 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@30b6f74f, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5730f986, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1962609a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@72f37ebe, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@75f8f320]
+13:41:43.789 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.jmk.bjjd.service.UserMgmtServiceTest]
+13:41:43.789 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.jmk.bjjd.service.UserMgmtServiceTest]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

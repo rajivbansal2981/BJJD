@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+	<!-- MemberEntity -->
+	<mapping>
+		<class-a>com.jmk.bjjd.persistence.nosql.entities.PersonEntity</class-a>
+		<class-b>com.jmk.bjjd.models.PersonModel</class-b>
+		<field>
+			<a is-accessible="true">firstName</a>
+			<b is-accessible="true">firstName</b>
+		</field>
+		<field>
+			<a is-accessible="true">id</a>
+			<b is-accessible="true">id</b>
+		</field>
+		<field>
+			<a>address</a>
+			<b>address</b>
+			<a-hint>com.jmk.bjjd.persistence.nosql.entities.AddressEntity</a-hint>
+			<b-hint>com.jmk.bjjd.models.AddressModel</b-hint>
+		</field>
+	</mapping>
+
+	<mapping>
+		<class-a>com.jmk.bjjd.persistence.nosql.entities.MemberEntity</class-a>
+		<class-b>com.jmk.bjjd.models.MemberModel</class-b>
+		<field>
+			<a is-accessible="true">fatherName</a>
+			<b is-accessible="true">fatherName</b>
+		</field>
+		<field>
+			<a>reportingLead</a>
+			<b>reportingLead</b>
+			<a-hint>com.jmk.bjjd.persistence.nosql.entities.MemberEntity</a-hint>
+			<b-hint>>com.jmk.bjjd.models.MemberModel</b-hint>
+		</field>
+		<field>
+			<a>roles</a>
+			<b>roles</b>
+			<a-hint>com.jmk.bjjd.persistence.nosql.entities.RoleEntity</a-hint>
+			<b-hint>>com.jmk.bjjd.models.RoleModel</b-hint>
+		</field>
+		<field>
+			<a>sevas</a>
+			<b>sevas</b>
+			<a-hint>com.jmk.bjjd.persistence.nosql.entities.SevaEntity</a-hint>
+			<b-hint>>com.jmk.bjjd.models.SevaModel</b-hint>
+		</field>
+	</mapping>
+	
+	<mapping>
+		<class-a>com.jmk.bjjd.persistence.nosql.entities.RoleEntity</class-a>
+		<class-b>com.jmk.bjjd.models.RoleModel</class-b>
+		<field>
+			<a>members</a>
+			<b>members</b>
+			<a-hint>com.jmk.bjjd.persistence.nosql.entities.MemberEntity</a-hint>
+			<b-hint>>com.jmk.bjjd.models.MemberModel</b-hint>
+		</field>
+	</mapping>
+	
+	<mapping>
+		<class-a>com.jmk.bjjd.persistence.nosql.entities.SevaEntity</class-a>
+		<class-b>com.jmk.bjjd.models.SevaModel</class-b>
+		<field>
+			<a>member</a>
+			<b>member</b>
+			<a-hint>com.jmk.bjjd.persistence.nosql.entities.MemberEntity</a-hint>
+			<b-hint>>com.jmk.bjjd.models.MemberModel</b-hint>
+		</field>
+		<field>
+			<a>sevaCategory</a>
+			<b>sevaCategory</b>
+			<a-hint>com.jmk.bjjd.persistence.nosql.entities.SevaCategoryEntity</a-hint>
+			<b-hint>>com.jmk.bjjd.models.SevaCategoryModel</b-hint>
+		</field>
+	</mapping>
+	
+	<mapping>
+		<class-a>com.jmk.bjjd.persistence.nosql.entities.SevaCategoryEntity</class-a>
+		<class-b>com.jmk.bjjd.models.SevaCategoryModel</class-b>
+		<field>
+			<a>sevas</a>
+			<b>sevas</b>
+			<a-hint>com.jmk.bjjd.persistence.nosql.entities.SevaEntity</a-hint>
+			<b-hint>>com.jmk.bjjd.models.SevaModel</b-hint>
+		</field>
+	</mapping>
+
+
+</mappings>

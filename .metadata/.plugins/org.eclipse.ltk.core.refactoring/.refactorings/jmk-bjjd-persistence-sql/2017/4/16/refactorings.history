@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ExpenseEntity.java&apos; to &apos;jmk-bjjd-persistence-nosql/src/main/java/com.jmk.bjjd.persistence.nosql.entities&apos;&#x0D;&#x0A;- Original project: &apos;jmk-bjjd-persistence-sql&apos;&#x0D;&#x0A;- Destination element: &apos;jmk-bjjd-persistence-nosql/src/main/java/com.jmk.bjjd.persistence.nosql.entities&apos;&#x0D;&#x0A;- Original element: &apos;com.jmk.bjjd.persistence.sql.entities.ExpenseEntity.java&apos;" description="Copy compilation unit" destination="=jmk-bjjd-persistence-nosql/src\/main\/java&lt;com.jmk.bjjd.persistence.nosql.entities" element1="/src\/main\/java&lt;com.jmk.bjjd.persistence.sql.entities{ExpenseEntity.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1492506759949" units="1" version="1.0"/>
+</session>

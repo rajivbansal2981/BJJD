@@ -1,0 +1,54 @@
+plugins {
+  id "org.akhikhl.gretty" version "1.2.4"
+}
+apply plugin: 'war'
+
+dependencies{
+	compile project(":jmk-bjjd-models")
+	compile project(":jmk-bjjd-utils")
+	testCompile project(":jmk-bjjd-service")
+	compile libraries.spring_core
+	compile libraries.spring_context
+	compile libraries.slf4j_api
+	compile libraries.slf4j_jcl
+	compile libraries.spring_web
+	compile libraries.spring_webmvc
+	compile libraries.spring_security_core
+	compile libraries.spring_security_web
+	compile libraries.spring_security_config
+	compile libraries.spring_security_taglibs
+	compile libraries.jackson
+	compile libraries.jackson_api
+	compile libraries.bean_validation
+	compile libraries.hibernate_validator
+	compile libraries.common_file_upload
+	compile libraries.open_csv
+	providedCompile libraries.servlet_api
+	compile libraries.jstl
+	compile libraries.commons_codec
+	compile libraries.tiles_jsp
+	compile libraries.display_tag
+	compile libraries.itext_pdf
+	testCompile libraries.jsp_api
+	testCompile libraries.spring_test
+	testCompile libraries.junit
+	testCompile libraries.mockito_api
+	testCompile libraries.spring_security_test
+	testCompile libraries.selenium_htmlunit_driver
+	testCompile libraries.selenium_support
+	testCompile libraries.htmlunit
+	
+	
+}
+
+gretty {
+  port = 8081
+  servletContainer = 'jetty8'
+  contextPath = '/jmk-bjjd-web'
+}
+
+war {
+    manifest.attributes = jar.manifest.attributes
+    manifest.attributes 'Implementation-Title': 'web'
+}
+

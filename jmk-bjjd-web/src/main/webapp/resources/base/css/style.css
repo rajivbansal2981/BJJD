@@ -1,0 +1,207 @@
+.header_container {
+	background: rgb(130, 0, 0);
+	border: 1px solid #666;
+	height: 98px;
+	left: 0;
+	margin: 1px 0 auto;
+	width: 100%;
+	top: 0;
+	position: absolute;
+}
+
+.main_header_font {
+	font-weight: 900;
+	font-family: 'Titillium Web', sans-serif;
+	position: relative;
+	font-size: 36px;
+	padding: 5px 0px 50px 0%;
+	color: rgb(255, 255, 255);
+}
+
+ .error {
+        color: red; font-weight: bold;
+    }
+
+.header {
+	line-height: 98px;
+	margin: 0;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: left;
+}
+
+.txt_adminblue {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #CC0000;
+	text-decoration: none;
+}
+
+/* Make Footer Sticky */
+.footer_container {
+	background: rgb(255, 255, 255);
+	border: 0px solid #666;
+	bottom: 0;
+	height: 39px;
+	left: 0;
+	margin: 1px -14;
+	width: 100%;
+}
+
+.footer {
+	line-height: 39px;
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+}
+
+.main_footer_font {
+	font-weight: 900;
+	font-family: 'Titillium Web', sans-serif;
+	position: relative;
+	font-size: 10px;
+	padding: 5px 0px 50px 0%;
+	color: rgb(0, 0, 0);
+}
+
+.button {
+  -webkit-border-radius: 23;
+  -moz-border-radius: 23;
+  border-radius: 23px;
+  font-family: Arial;
+  font-weight:bold;
+  color: #ffffff;
+  font-size: 12px;
+  background: rgb(130, 0, 0);
+  padding: 6px 11px 6px 14px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #eb111c;
+  text-decoration: none;
+}
+
+.legend{
+  font-family: Tahoma;
+  font-size:25px;
+  font-weight:bold;
+  background-color:rgb(130, 0, 0);
+  color:white;
+  width:100%;
+  padding:5px;
+  text-align:center;
+ }
+ 
+.bgimage {
+	background-image: url(../images/bg.gif);
+	background-repeat: no-repeat;
+}
+.bg_admin {
+	background-image: url(../images/bg_admin.gif);
+	background-repeat: no-repeat;
+}
+
+.border_admin { 
+	border-top: 1px #800000 Solid;
+	border-left: 1px #800000 Solid; 
+	border-right:1px #800000 Solid; 
+	border-bottom:1px #800000 Solid;
+}
+.txt_link{
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #DF7409;
+	text-decoration: underline;
+}
+
+.txt_adminblue {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #CC0000;
+	text-decoration: none;
+}
+
+.txt_adminblue A{
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #003399;
+	text-decoration: none;
+}
+
+.bg1 {
+	background: url(../images/img1.jpg) repeat-x left top;
+	height: 79px;
+
+}
+
+.txt_adminblue A:hover{
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #FF9900;
+	text-decoration: underline;
+}
+.txt_adminblack {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+.txt_adminblack A{
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.txt_adminblack A:hover{
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: underline;
+}
+
+.asterisk_input:after {
+content:" *"; 
+color: #e32;
+position: absolute; 
+margin: 0px 0px 0px 5px; 
+font-size: 11px; 
+padding: 0 5px 0 0; }
+
+.txt_textbox {
+	 text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+	 font-family: Tahoma;
+	 font-size: 11px;
+	 outline: none;
+	 height:25px; 
+	 border-radius: 3px;
+	 border: 1px solid rgb(113, 113, 113);
+	 -webkit-box-shadow: rgb(239, 239, 239) 1px 1px 0px;
+	 box-shadow: rgb(239, 239, 239) 1px 1px 0px;
+	 background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(188, 188, 190)), to(rgb(255, 255, 255)));
+}
+
+
+ .txt_textbox:hover { 
+    border: 1px solid #FF00FF; 
+    box-shadow: inset 0px 1px 2px rgba(0,0,0,0.3); 
+    -moz-box-shadow: inset 0px 1px 2px rgba(0,0,0,0.3); 
+    -webkit-box-shadow: inset 0px 1px 2px rgba(0,0,0,0.3); 
+  } 
+ .txt_textbox:focus { 
+    border: 1px solid #4d90fe; 
+    outline: none; 
+    box-shadow: inset 0px 1px 2px rgba(0,0,0,0.3);  
+    -moz-box-shadow: inset 0px 1px 2px rgba(0,0,0,0.3); 
+    -webkit-box-shadow: inset 0px 1px 2px rgba(0,0,0,0.3); 
+    background: rgb(255, 255, 255); 
+    } 

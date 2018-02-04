@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.jmk.bjjd.web.controller.CreateMemberForm&apos; to &apos;CreateMemberPage&apos;&#x0D;&#x0A;- Original project: &apos;jmk-bjjd-web&apos;&#x0D;&#x0A;- Original element: &apos;com.jmk.bjjd.web.controller.CreateMemberForm&apos;&#x0D;&#x0A;- Renamed element: &apos;com.jmk.bjjd.web.controller.CreateMemberPage&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;CreateMemberForm&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java&lt;com.jmk.bjjd.web.controller{CreateMemberForm.java[CreateMemberForm" matchStrategy="1" name="CreateMemberPage" qualified="false" references="true" similarDeclarations="false" stamp="1476453825356" textual="false" version="1.0"/>
+</session>

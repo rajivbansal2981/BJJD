@@ -1,0 +1,30 @@
+plugins {
+  id "org.akhikhl.gretty" version "1.2.4"
+}
+apply plugin: 'war'
+dependencies{
+	compile project(":jmk-bjjd-models")
+	compile project(":jmk-bjjd-service")
+	compile project(":jmk-bjjd-utils")
+	compile libraries.spring_core
+	compile libraries.spring_context
+	compile libraries.slf4j_api
+	compile libraries.slf4j_jcl
+	compile libraries.spring_web
+	compile libraries.spring_webmvc
+	compile libraries.jackson
+	compile libraries.jackson_api
+	providedCompile libraries.servlet_api
+	testCompile libraries.spring_test
+}
+
+gretty {
+  port = 9090
+  servletContainer = 'jetty8'
+  contextPath = '/jmk-bjjd-webservice'
+}
+
+war {
+    manifest.attributes = jar.manifest.attributes
+    manifest.attributes 'Implementation-Title': 'jmk-bjjd-webservice'
+}

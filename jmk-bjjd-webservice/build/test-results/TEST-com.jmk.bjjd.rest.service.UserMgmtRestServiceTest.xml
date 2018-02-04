@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jmk.bjjd.rest.service.UserMgmtRestServiceTest" tests="2" skipped="2" failures="0" errors="0" timestamp="2017-05-05T08:11:51" hostname="DEL2-LT6J0FG32" time="0.001">
+  <properties/>
+  <testcase name="fetchAllUserRecords" classname="com.jmk.bjjd.rest.service.UserMgmtRestServiceTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="getUserDetailsByUserId" classname="com.jmk.bjjd.rest.service.UserMgmtRestServiceTest" time="0.001">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[13:41:51,018 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+13:41:51,019 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+13:41:51,019 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/F:/BJJD/jmk-bjjd-webservice/build/resources/main/logback.xml]
+13:41:51,137 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+13:41:51,150 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+13:41:51,153 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+13:41:51,207 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+13:41:51,207 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+13:41:51,207 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+13:41:51,207 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+13:41:51,208 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [DETAILED-APP-LOG-FILE]
+13:41:51,243 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - No compression will be used
+13:41:51,244 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern F:/JAVA/apache-tomcat-8.0.36/logs/archived/detailed-app.%d{yyyy-MM-dd}.%i.log for the active file
+13:41:51,246 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@1540a95f - The date pattern is 'yyyy-MM-dd' from file name pattern 'F:/JAVA/apache-tomcat-8.0.36/logs/archived/detailed-app.%d{yyyy-MM-dd}.%i.log'.
+13:41:51,246 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@1540a95f - Roll-over at midnight.
+13:41:51,249 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@1540a95f - Setting initial period to Thu May 04 22:13:30 IST 2017
+13:41:51,252 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[DETAILED-APP-LOG-FILE] - Active log file name: F:/JAVA/apache-tomcat-8.0.36/logs/restdetailed-app.log
+13:41:51,252 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[DETAILED-APP-LOG-FILE] - File property is set to [F:/JAVA/apache-tomcat-8.0.36/logs/restdetailed-app.log]
+13:41:51,253 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+13:41:51,253 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [APP-LOG-FILE]
+13:41:51,255 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - No compression will be used
+13:41:51,255 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern F:/JAVA/apache-tomcat-8.0.36/logs/archived/app.%d{yyyy-MM-dd}.%i.log for the active file
+13:41:51,256 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3c1ebb37 - The date pattern is 'yyyy-MM-dd' from file name pattern 'F:/JAVA/apache-tomcat-8.0.36/logs/archived/app.%d{yyyy-MM-dd}.%i.log'.
+13:41:51,256 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3c1ebb37 - Roll-over at midnight.
+13:41:51,256 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3c1ebb37 - Setting initial period to Thu May 04 21:56:38 IST 2017
+13:41:51,257 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[APP-LOG-FILE] - Active log file name: F:/JAVA/apache-tomcat-8.0.36/logs/app.log
+13:41:51,257 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[APP-LOG-FILE] - File property is set to [F:/JAVA/apache-tomcat-8.0.36/logs/app.log]
+13:41:51,257 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+13:41:51,257 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [ERROR-LOG-FILE]
+13:41:51,258 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - No compression will be used
+13:41:51,258 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern F:/JAVA/apache-tomcat-8.0.36/logs/archived/error.%d{yyyy-MM-dd}.%i.log for the active file
+13:41:51,259 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@46087291 - The date pattern is 'yyyy-MM-dd' from file name pattern 'F:/JAVA/apache-tomcat-8.0.36/logs/archived/error.%d{yyyy-MM-dd}.%i.log'.
+13:41:51,259 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@46087291 - Roll-over at midnight.
+13:41:51,259 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@46087291 - Setting initial period to Thu May 04 21:56:38 IST 2017
+13:41:51,259 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[ERROR-LOG-FILE] - Active log file name: F:/JAVA/apache-tomcat-8.0.36/logs/error.log
+13:41:51,259 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[ERROR-LOG-FILE] - File property is set to [F:/JAVA/apache-tomcat-8.0.36/logs/error.log]
+13:41:51,260 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.jmk.bt] to INFO
+13:41:51,260 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [APP-LOG-FILE] to Logger[com.jmk.bt]
+13:41:51,261 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[com.jmk.bt]
+13:41:51,261 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+13:41:51,261 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [DETAILED-APP-LOG-FILE] to Logger[ROOT]
+13:41:51,261 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+13:41:51,261 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@4a7f1076 - Registering current configuration as safe fallback point
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

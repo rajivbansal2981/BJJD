@@ -1,0 +1,145 @@
+<%@ page session="false" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
+<%@ taglib uri="http://www.springframework.org/tags" prefix="spring" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<spring:url value="/member/saveMember" var="editMember" htmlEscape="true"/>
+<link rel="stylesheet" href="<c:url value="/resources/jquery-ui-1.11.4/jquery-ui.min.css" />" type="text/css"/>
+<script src="<c:url value="/resources/jquery-ui-1.11.4/jquery-ui.min.js" />" type="text/javascript"></script>
+<link rel="stylesheet" href="<c:url value="/resources/jquery-ui-1.11.4/jquery-ui.css" />" type="text/css"/>
+<script src="<c:url value="/resources/jquery-ui-1.11.4/external/jquery/jquery.js" />" type="text/javascript"></script>
+<script src="<c:url value="/resources/jquery-ui-1.11.4/jquery-ui.js" />" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+
+	function readURL() {
+		//	rehide the image and remove its current "src",
+		//	this way if the new image doesn't load,
+		//	then the image element is "gone" for now
+		$('#image').attr('src', '').hide();
+		if (this.files && this.files[0]) {
+			var reader = new FileReader();
+			$(reader).load(function(e) {
+				$('#image')
+					//	first we set the attribute of "src" thus changing the image link
+					.attr('src', e.target.result)	//	this will now call the load event on the image
+			});
+			reader.readAsDataURL(this.files[0]);
+		}
+	}
+
+//		below makes use of jQuery chaining. This means the same element is returned after each method, so we don't need to call it again
+	$('#image')
+		.load(function(e) {
+			//	$(this) is the jQuery OBJECT of this which is the element we've called on this load method
+			$(this)
+				.css('height', '100px').show();})
+		.hide();	//	done
+
+	 $("#photoName").change(readURL);
+	//Settings for tab
+	 $(function() {
+		    $( "#tabs" ).tabs();
+	  });
+	  
+	  $( "#tabs" ).tabs({
+		heightStyle: "auto"
+	  });
+});
+
+	
+</script>
+<body>
+<table>
+	<tr>
+		<td style="height:50px;">&nbsp;</td>
+	</tr>
+</table>
+<form:form id="memberForm" method="GET" commandName="memberFormModel" name="memberFormModel" enctype="mutlipart/form-data">
+					<table	class="border_admin1" style="width:990px;" align="center" >
+						 <tr>
+							<td style="text-align:center" class="legend"><B>Member Details</B></td>
+						</tr>
+					</table>
+    				<table style="width:990px;" align="center" >
+						 <tr>
+							<td style="text-align:center" class="legend" colspan="4"><B>Basics</B></td>
+						</tr>
+						<tr>
+						<td width="19%">&nbsp;</td>
+							<td align="left" class="txt_adminblack"><b><form:label path="fileUpload">Photo:</form:label></b></td>
+							<td class="txt_adminblack"><img src="data:image/jpeg;base64,${imageContent}" alt="Member " width="200" height="200">
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+						<td width="19%">&nbsp;</td>
+							<td align="left" class="txt_adminblack"><b><form:label path="fileUpload">Photo:</form:label></b></td>
+							<td class="txt_adminblack"><img src="data:image/jpeg;base64,${photoUpload.data}" alt="Member Photo" width="200" height="200">
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+						<td width="19%">&nbsp;</td>
+							<td align="left" class="txt_adminblack"><b><form:label path="fileUpload">Photo:</form:label></b></td>
+							<td class="txt_adminblack"><img src="data:image/jpg;base64,<c:out value='${imageContent}'/>" alt="Memr Photo" width="200" height="200"/></td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+						<td width="19%">&nbsp;</td>
+							<td align="left" class="txt_adminblack"><b><form:label path="fileUpload">Photo:</form:label></b></td>
+							<td class="txt_adminblack"><img src="data:image/jpg;base64,<c:out value='${imageContents}'/>" alt="Mmber Photo" width="200" height="200"/></td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+						<td width="19%">&nbsp;</td>
+							<td align="left" class="txt_adminblack"><b><form:label path="fileUpload">Photo:</form:label></b></td>
+							<td class="txt_adminblack"><img src="data:image/jpg;base64,<c:out value='${encodedImage}'/>" alt="Mmber Photo" width="200" height="200"/></td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td width="19%">&nbsp;</td>
+							<td align="left" class="txt_adminblack"><b><form:label path="id">Member ID</form:label></b></td>
+							<td class="txt_adminblack"><form:input id="id" path="id" name="id" size="20" maxlength="50" type="text" cssClass="txt_textbox" cssStyle="width:50px" /></td>
+							<td class="txt_adminblack">&nbsp;</td>
+						</tr>
+						<tr>
+							<td colspan="4">&nbsp;</td>
+						</tr>
+						<tr>
+							<td width="19%">&nbsp;</td>
+							<td align="left" class="txt_adminblack"><b><form:label path="firstName">First Name</form:label></b></td>
+							<td class="txt_adminblack"><form:input id="firstName" path="firstName" name="firstName" size="20" maxlength="50" type="text" cssClass="txt_textbox" cssStyle="width:150px" /><span class="asterisk_input" ></span></td>
+							<td class="txt_adminblack"><form:errors path="firstName" cssClass="error" /></td>
+						</tr>
+						<tr>
+							<td colspan="4">&nbsp;</td>
+						</tr>
+						<tr>
+							<td width="19%">&nbsp;</td>
+							<td align="left" class="txt_adminblack"><b><form:label path="lastName">Last Name :</form:label></b></td>
+							<td class="txt_adminblack"><form:input id="lastName" path="lastName" name="lastName" cssClass="txt_textbox" cssStyle="width:150px" /></td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td colspan="4">&nbsp;</td>
+						</tr>
+						<tr>
+							<td width="19%">&nbsp;</td>
+							<td align="left" class="txt_adminblack"><b><form:label path="dateOfBirth">Date of Birth :</form:label></b></td>
+							<td class="txt_adminblack"><form:input id="dateOfBirth" path="dateOfBirth" name="dateOfBirth" cssClass="txt_textbox" cssStyle="width:120px" /><span class="asterisk_input" ></span></td>
+							<td class="txt_adminblack"><form:errors path="dateOfBirth" cssClass="error" /></td>
+						</tr>
+						<tr>
+							<td colspan="4">&nbsp;</td>
+						</tr>
+						<tr>
+							<td width="19%">&nbsp;</td>
+							<td align="left" class="txt_adminblack"><b><form:label path="fatherName">Father Name :</form:label></b></td>
+							<td class="txt_adminblack"><form:input id="fatherName" path="fatherName" name="fatherName" cssClass="txt_textbox" cssStyle="width:150px" /><span class="asterisk_input" ></span></td>
+							<td class="txt_adminblack"><form:errors path="fatherName" cssClass="error"/></td>
+						</tr>
+						<tr>
+							<td colspan="4">&nbsp;</td>
+						</tr>
+					</table>
+</form:form>
+</body>

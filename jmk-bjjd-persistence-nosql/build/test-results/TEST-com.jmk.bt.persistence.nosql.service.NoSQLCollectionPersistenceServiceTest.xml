@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jmk.bt.persistence.nosql.service.NoSQLCollectionPersistenceServiceTest" tests="4" skipped="4" failures="0" errors="0" timestamp="2017-05-05T08:11:38" hostname="DEL2-LT6J0FG32" time="0.002">
+  <properties/>
+  <testcase name="findAllCollectionByMemberId" classname="com.jmk.bt.persistence.nosql.service.NoSQLCollectionPersistenceServiceTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="findAllCollectionByGuestId" classname="com.jmk.bt.persistence.nosql.service.NoSQLCollectionPersistenceServiceTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="findAllCollectionByPersonType" classname="com.jmk.bt.persistence.nosql.service.NoSQLCollectionPersistenceServiceTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="fetchCollectionRecords" classname="com.jmk.bt.persistence.nosql.service.NoSQLCollectionPersistenceServiceTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[13:41:38.225 [Test worker] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.jmk.bt.persistence.nosql.service.NoSQLCollectionPersistenceServiceTest]
+13:41:38.324 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+13:41:38.329 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+13:41:38.337 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.jmk.bt.persistence.nosql.service.NoSQLCollectionPersistenceServiceTest] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+13:41:38.361 [Test worker] DEBUG o.s.t.c.s.AbstractDelegatingSmartContextLoader - Delegating to AnnotationConfigContextLoader to process context configuration [ContextConfigurationAttributes@7bbe03d declaringClass = 'com.jmk.bt.persistence.nosql.service.NoSQLCollectionPersistenceServiceTest', classes = '{class com.jmk.bjjd.persistence.nosql.config.SpringNoSQLPersistenceConfig}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+13:41:38.363 [Test worker] DEBUG o.s.t.c.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.jmk.bt.persistence.nosql.service.NoSQLCollectionPersistenceServiceTest]
+13:41:38.368 [Test worker] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - @TestExecutionListeners is not present for class [com.jmk.bt.persistence.nosql.service.NoSQLCollectionPersistenceServiceTest]: using defaults.
+13:41:38.374 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+13:41:38.379 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+13:41:38.383 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3364e81a, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2c20b5fa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@9b95df5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@50946a78, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@44a47c48]
+13:41:38.385 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.jmk.bt.persistence.nosql.service.NoSQLCollectionPersistenceServiceTest]
+13:41:38.385 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.jmk.bt.persistence.nosql.service.NoSQLCollectionPersistenceServiceTest]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

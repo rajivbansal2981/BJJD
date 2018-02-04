@@ -1,0 +1,24 @@
+dependencies{
+	compile project(":jmk-bjjd-utils")
+	compile project(":jmk-bjjd-persistence")
+	compile libraries.spring_core
+	compile libraries.spring_context
+	compile libraries.slf4j_api
+	compile libraries.logback_classic
+	compile libraries.logback_core
+	testCompile libraries.spring_test
+	compile libraries.hibernate_validator
+	compile libraries.hibernate_api
+	compile libraries.spring_tx
+	compile libraries.spring_orm
+	compile libraries.commons_dbcp
+	compile libraries.oracle_driver
+	compile libraries.jackson
+	compile libraries.jackson_api
+	compile libraries.hibernate_jpa
+	compile libraries.spring_data
+	//compile (libraries.spring_data){
+	//	exclude group:'org.hibernate.javax.persistence',module:'hibernate-jpa-2.0-api' //by group and module name
+	//}
+}
+

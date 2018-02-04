@@ -1,0 +1,1 @@
+include "jmk-bjjd-web", "jmk-bjjd-webservice", "jmk-bjjd-models", "jmk-bjjd-persistence", "jmk-bjjd-utils","jmk-bjjd-service","jmk-bjjd-messaging-service","jmk-bjjd-persistence-sql","jmk-bjjd-persistence-nosql","jmk-bjjd-entities"

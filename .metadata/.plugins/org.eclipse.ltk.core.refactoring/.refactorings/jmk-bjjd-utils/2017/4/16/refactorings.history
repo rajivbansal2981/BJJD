@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;MemberURIConstants.java&apos; to &apos;com.jmk.bjjd.util.constants.MemberURIConstants.java&apos;&#x0D;&#x0A;- Original project: &apos;jmk-bjjd-utils&apos;&#x0D;&#x0A;- Destination element: &apos;com.jmk.bjjd.util.constants.MemberURIConstants.java&apos;&#x0D;&#x0A;- Original element: &apos;com.jmk.bjjd.util.constants.MemberURIConstants.java&apos;" description="Copy compilation unit" destination="/src\/main\/java&lt;com.jmk.bjjd.util.constants{MemberURIConstants.java" element1="/src\/main\/java&lt;com.jmk.bjjd.util.constants{MemberURIConstants.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1492588964141" units="1" version="1.0"/>
+</session>

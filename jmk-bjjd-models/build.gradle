@@ -1,0 +1,16 @@
+dependencies{
+	compile project(":jmk-bjjd-utils")
+	compile libraries.spring_core
+	compile libraries.spring_context
+	compile libraries.spring_data_mongodb
+	compile libraries.mongodb_driver
+	compile libraries.slf4j_api
+	compile libraries.logback_classic
+	compile libraries.logback_core
+	compile libraries.bean_validation
+	compile libraries.jackson
+	compile libraries.jackson_api
+	compile libraries.hibernate_validator
+	testCompile libraries.spring_test
+}
+

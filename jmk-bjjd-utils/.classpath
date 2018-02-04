@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java">
+		<attributes>
+			<attribute name="FROM_GRADLE_MODEL" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src/main/resources">
+		<attributes>
+			<attribute name="FROM_GRADLE_MODEL" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src/test/java">
+		<attributes>
+			<attribute name="FROM_GRADLE_MODEL" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src/test/resources">
+		<attributes>
+			<attribute name="FROM_GRADLE_MODEL" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+	<classpathentry sourcepath="C:/Users/rajivb/.gradle/caches/modules-2/files-2.1/net.sf.dozer/dozer/5.0/8daa59e173ea7925446820fbdca9cdda197e1786/dozer-5.0-sources.jar" kind="lib" path="C:/Users/rajivb/.gradle/caches/modules-2/files-2.1/net.sf.dozer/dozer/5.0/9355391d24b5b304f40797a357ea67eda3a3efc2/dozer-5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rajivb/.m2/repository/org/springframework/spring-core/4.2.0.RELEASE/spring-core-4.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rajivb/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rajivb/.m2/repository/org/springframework/spring-context/4.2.0.RELEASE/spring-context-4.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rajivb/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rajivb/.m2/repository/org/slf4j/jcl-over-slf4j/1.6.1/jcl-over-slf4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rajivb/.m2/repository/junit/junit/4.11/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rajivb/.m2/repository/org/springframework/spring-test/4.2.0.RELEASE/spring-test-4.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rajivb/.m2/repository/commons-beanutils/commons-beanutils/1.8.0/commons-beanutils-1.8.0.jar"/>
+	<classpathentry sourcepath="C:/Users/rajivb/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.4/2b8c4b3035e45520ef42033e823c7d33e4b4402c/commons-lang-2.4-sources.jar" kind="lib" path="C:/Users/rajivb/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.4/16313e02a793435009f1e458fa4af5d879f6fb11/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rajivb/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rajivb/.m2/repository/org/springframework/spring-aop/4.2.0.RELEASE/spring-aop-4.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rajivb/.m2/repository/org/springframework/spring-beans/4.2.0.RELEASE/spring-beans-4.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rajivb/.m2/repository/org/springframework/spring-expression/4.2.0.RELEASE/spring-expression-4.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rajivb/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rajivb/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar"/>
+</classpath>

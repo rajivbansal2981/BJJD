@@ -1,0 +1,9 @@
+dependencies{
+	compile libraries.dozer_api
+	compile libraries.spring_core
+	compile libraries.spring_context
+	compile libraries.slf4j_api
+	compile libraries.slf4j_jcl
+	testCompile libraries.spring_test
+}
+
